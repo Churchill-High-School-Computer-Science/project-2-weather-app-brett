@@ -53,7 +53,7 @@ public class WeatherAPI {
         String temp = getTemp(blockOfText) ;
         String feel = getFeelsLike(blockOfText);
         String humid = getHumidity(blockOfText);
-        return;
+        return name + "\n" + temp + "\n" + feel + "\n" + humid;
 
 
     }
